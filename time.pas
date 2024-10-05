@@ -2,9 +2,10 @@
 begin
   var n:= readinteger;
   if ((n mod 4) = 0) and ((n mod 100)<>0) and ((n mod 400)<>0) then
-    print('Високосный')
+    print('Високосный, 366 дней')
   else 
-    print('Не високосный');
+    print('Не високосный, 365 дней');
+  
 end.
 {
 2020
